@@ -1,7 +1,7 @@
 import Express from 'express';
 // import path from 'path';
-import notesRouter from './pages/notesRouter.js';
-import apiRouter from './pages/api.js';
+import notesRouter from './Pages/notesRouter.js';
+import apiRouter from './Pages/api.js';
 import path from 'path';
 const __dirname = path.resolve();
 const app = Express();
