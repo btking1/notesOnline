@@ -4,7 +4,7 @@ import notesRouter from './pages/notesRouter.js';
 import apiRouter from './pages/api.js';
 const app = Express();
 
-const PORT = 3002;
+const PORT = process.env.PORT || 3002;
 const pagesFolder = './public';
 
 app.use(Express.static(pagesFolder))
