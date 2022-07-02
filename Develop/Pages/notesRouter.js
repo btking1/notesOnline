@@ -1,5 +1,6 @@
 import Express from 'express';
 
+// router servers the notes html page
 let router = Express.Router();
 
 router.route("/")

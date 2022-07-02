@@ -180,4 +180,13 @@ if (window.location.pathname === '/notes') {
   noteText.addEventListener('keyup', handleRenderSaveBtn);
 }
 
+//function that makes the notes draggable
+const draggable = (elem) => {
+  elem.draggable = true;
+  elem.addEventListener('dragstart', (e) => {
+    e.dataTransfer.setData('text/plain', e.target.id);
+  }
+  );
+}
+
 getAndRenderNotes();
