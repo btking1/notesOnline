@@ -5,9 +5,8 @@ import apiRouter from './Pages/api.js';
 import path from 'path';
 const __dirname = path.resolve();
 const app = Express();
-
 const PORT = process.env.PORT || 3002;
-// const pagesFolder = './public';
+
 app.use(Express.json());
 app.use(Express.urlencoded({ extended: true }));
 
