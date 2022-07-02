@@ -5,9 +5,9 @@ import apiRouter from './pages/api.js';
 const app = Express();
 
 const PORT = process.env.PORT || 3002;
-const pagesFolder = './public';
+// const pagesFolder = './public';
 
-app.use(Express.static(pagesFolder))
+app.use(Express.static('public'));
 
 // connect the notes & db router to the app
 
