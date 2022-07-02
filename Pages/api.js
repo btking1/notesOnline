@@ -2,10 +2,10 @@ import Express from 'express';
 import fs from 'fs';
 
 let router = Express();
-router.use(Express.json());
-router.use(Express.urlencoded({
-    extended:true
-}))
+// router.use(Express.json());
+// router.use(Express.urlencoded({
+//     extended:true
+// }))
 
 // router servers the db api for the notes app
 router.route("/")
