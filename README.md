@@ -29,5 +29,5 @@ save icon in the top right corner. You should now see your saved note in the lef
 For more information about the project you can go
 to my GitHub page at the following Link:
 
-- GitHub: [https://github.com/btking1/README-Generator](https://github.com/btking1)
+- GitHub: [github.com/btking1](https://github.com/btking1)
 - Email: btking1@gmail.com
