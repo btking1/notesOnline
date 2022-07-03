@@ -24,7 +24,7 @@ save icon in the top right corner. You should now see you saved note in the left
 
 [VIDEO LINK HERE](https://www.youtube.com/watch?v=kaqN3KDxCYY)
 
-![SCREENSHOOT](https://github.com/btking1/Eng-Team-Profile-Generator/blob/main/img/eng-team-ss.jpg)
+![SCREENSHOOT](https://github.com/btking1/notesOnline/blob/main/img/Screenshot%202022-07-03%20090740.jpg)
 
 ## Questions
 
