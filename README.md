@@ -18,7 +18,7 @@ thoughts and keep track of important information.
 ## Usage
 
 Open application and enter a note title and text. Once finished press the
-save icon in the top right corner. You should now see you saved note in the left column!
+save icon in the top right corner. You should now see your saved note in the left column!
 
 [LINK TO APPLICATION](https://notesmonline.herokuapp.com/)
 
