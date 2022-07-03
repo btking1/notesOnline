@@ -2,10 +2,6 @@ import Express from 'express';
 import fs from 'fs';
 
 let router = Express();
-// router.use(Express.json());
-// router.use(Express.urlencoded({
-//     extended:true
-// }))
 
 // router servers the db api for the notes app
 router.route("/")
@@ -38,36 +34,7 @@ router.delete('/:id', (req, res) => {
     res.send(newNotes);
 }
 )
-//update selected note
-router.put('/:id', (req, res) => {
-    let notes = JSON.parse(fs.readFileSync('./db/db.json', 'utf8'));
-    let newNotes = notes.map(note => {
-        if (note.id === parseInt(req.params.id)) {
-            note.title = req.body.title;
-            note.text = req.body.text;
-        }
-        return note;
-    }
-    );
-    fs.writeFileSync('./db/db.json', JSON.stringify(newNotes));
-    res.send(newNotes);
-}
-)
 
-//make saved notes green
-router.put('/:id/green', (req, res) => {
-    let notes = JSON.parse(fs.readFileSync('./db/db.json', 'utf8'));
-    let newNotes = notes.map(note => {
-        if (note.id === parseInt(req.params.id)) {
-            note.color = 'green';
-        }
-        return note;
-    }
-    );
-    fs.writeFileSync('./db/db.json', JSON.stringify(newNotes));
-    res.send(newNotes);
-}
-)
 
 
 
