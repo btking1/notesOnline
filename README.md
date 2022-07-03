@@ -6,8 +6,8 @@
 
 ## Description
    
-    - This application allows you to write and save notes on the browser. Enabling users to organize there 
-    thoughts and keep track of important information.
+This application allows you to write and save notes on the browser. Enabling users to organize there 
+thoughts and keep track of important information.
     
     - Built with: 
         * HTML
@@ -18,13 +18,11 @@
 ## Usage
 
 Open application and enter a note title and text. Once finished press the
-save icon in the top right corner. You should now see you saved note in the left column!
+save icon in the top right corner. You should now see your saved note in the left column!
 
 [LINK TO APPLICATION](https://notesmonline.herokuapp.com/)
 
-[VIDEO LINK HERE](https://www.youtube.com/watch?v=kaqN3KDxCYY)
-
-![SCREENSHOOT](https://github.com/btking1/Eng-Team-Profile-Generator/blob/main/img/eng-team-ss.jpg)
+![SCREENSHOOT](https://github.com/btking1/notesOnline/blob/main/img/Screenshot%202022-07-03%20090740.jpg)
 
 ## Questions
 
