@@ -6,7 +6,7 @@
 
 ## Description
    
-Notes can be written and saved on the browser using this application. Allowing users to stay on top of
+Notes can be written and saved on the browser using this application. In turn, allowing users to stay on top of
 important information and organize your thoughts.
 
     - Built with: 
