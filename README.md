@@ -6,9 +6,9 @@
 
 ## Description
    
-This application allows you to write and save notes on the browser. Enabling users to organize there 
-thoughts and keep track of important information.
-    
+Notes can be written and saved on the browser using this application. Allowing users to stay on top of
+important information and organize your thoughts.
+
     - Built with: 
         * HTML
         * CSS
